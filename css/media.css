@@ -1,0 +1,164 @@
+@media (min-width: 1501px) and (max-width: 1700px) {
+	.WYG-code__img  img{
+		 width: 40%;
+
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+	.WYG-wrap{
+		 width: 50%;
+	}
+	.WYG-code__img  img{
+		 width: 60%;
+
+	}
+
+	.WYG-list{
+		
+		width: 100%;
+		
+
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+	#WhatYouGet {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+		}
+
+	.WYG-list{
+		
+		width: 80%;
+		
+
+	}
+
+	.WYG-wrap{
+		display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+         
+	}
+
+   .WYG-code__img  img{
+      width: 100%;
+      position: relative;
+	}
+
+               
+	.list{
+		width: 100%;
+		 
+	}
+
+	
+		
+}
+
+@media (max-width: 799px) {
+	#WhatYouGet {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+		}
+
+	.WYG-list{
+		
+		width: 80%;
+		
+
+	}
+
+
+	 .list{
+		width: 100%;
+		 
+	}
+
+	.WYG-wrap{
+		display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+         
+	}
+	.main-menu { display: none; 
+	}
+
+	.Fork-App_head{
+
+ line-height: 1.7em;
+}	
+
+html{
+	font-size: 0.8em;
+}
+
+.WYG-code__img  img{
+      width: 140%;
+      position: relative;
+	}
+
+
+.block {
+width: 80%;
+}	
+.PAT-blocks1{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.PAT-blocks2{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tariffs{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.TextBoxes-main{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.textbox{
+	width: 80%;
+}
+.footer{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ftr{
+	width: 80%;
+}
+
+}
