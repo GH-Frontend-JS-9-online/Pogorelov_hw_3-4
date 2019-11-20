@@ -22,8 +22,7 @@ header{
 	margin: 0 auto;
 	width:80%;
 	padding: 0 30;
-	border: dotted 2px #1133c8;
-
+	
 }
 
 
@@ -92,7 +91,9 @@ margin-right: 3rem;
 	line-height: 0.94rem;
 	text-decoration: none;
 }
+/*BURGER MENU***********************************/
 
+/***********************************************/
 #Fork-App{
 	background-image: url(../img/fork_app_back.png);
 	background-position: center;
@@ -116,7 +117,7 @@ margin-right: 3rem;
 	height: 800px;
 }
 
-.Fork-App_head{
+.Fork-App__head{
 
  line-height: 0.9rem;
 }
@@ -217,9 +218,11 @@ h1{
 	font-family: 'Montserrat Bold', sans-serif;
 	padding: 0;
 	
-	
-
 }
+
+.WYG-title__hidden-for-large{
+	display: none;
+	}
 
 .WYG-code__img{
  margin-bottom: -10%
@@ -262,7 +265,7 @@ width: 30%;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.GitTwitFace-links{
+.Git-Twit-Face__links{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -368,6 +371,13 @@ width: 30%;
 	
 }
 
+.Fork-Pricing__wraper{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
 .tariffs{
 	display: flex;
 	justify-content: center;
@@ -385,6 +395,15 @@ width: 30%;
  margin: 1.6rem;
  font-size: 1rem;
  font-family: 'Montserrat Regular', sans-serif;
+ transition-property: background-color,width, height;
+ transition-duration: 0.2s;
+ transition-delay: 0.2s;
+}
+
+.tarif:hover{
+background-color: rgba(255, 255, 255, 0.02);
+width: 19rem;
+height: 32rem;
 }
 
 
@@ -398,6 +417,10 @@ width: 30%;
  color: #ffffff;
  font-size: 1.5rem;
  font-family: 'Montserrat Regular', sans-serif;
+transition-property: background;
+}
+.blockhead:hover{
+background-color: #392d3d;
 }
 
 .price p:first-of-type{
@@ -422,12 +445,7 @@ width: 30%;
   width: 60%;
 }
 
-.Fork-Pricing__wraper{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-}
+
 .purchase{
   background-color: rgba(255, 255, 255, 0.06);
   border: none;
@@ -447,7 +465,7 @@ width: 30%;
 	color: #8d81ac;
 }
 
-.Subscribe{
+#Subscribe{
 	background-color: #f4f4f4;
 	display: flex;
 	justify-content: center;
@@ -462,6 +480,11 @@ width: 30%;
 	width: 65%;
 }
 
+.Subscribe__text{
+ color: #635c73;
+ font-size: 1.875rem;
+ font-family: 'Montserrat Regular', sans-serif;
+}
 .Subscribe__input input{
   margin-right: 1.2rem;
   border-radius: 1.5rem;
@@ -472,11 +495,6 @@ width: 30%;
   padding-bottom: 0.7rem;
 }
 
-.Subscribe__text{
- color: #635c73;
- font-size: 1.875rem;
- font-family: 'Montserrat Regular', sans-serif;
-}
 
 .TextBoxes{
  position: relative;
