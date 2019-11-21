@@ -137,7 +137,7 @@ h1{
 .gamechanger{
 	color: #8d81ac;
 	font-size: 1.87rem;
-	font-family: 'Lato Regular', sans-serif; 
+	font-family: 'Montserrat Regular', sans-serif; 
 }
 
 .version{
@@ -339,6 +339,10 @@ width: 30%;
 	
 }
 
+.PAT-blocks{
+  font-size: 1rem;
+  font-family: 'Source Sans Pro Bold Italic', sans-serif;
+}
 
 .PAT-blocks1{
 	display: flex;

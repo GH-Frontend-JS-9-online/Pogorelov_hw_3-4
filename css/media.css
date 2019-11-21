@@ -188,4 +188,25 @@
 	width: 80%;
 }
 
+.Git-Twit-Face__links{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.followers{
+	width: 60%;
+}
+
+.Subscribe__wrap{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding-bottom: 2em;
+}
+
 }
